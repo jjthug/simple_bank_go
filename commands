@@ -1,0 +1,22 @@
+sudo docker pull postgres:15-alpine
+sudo docker run --name postgres15 -p 5432:5432 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=secret -d postgres:15-alpine
+sudo docker exec -it postgres15 psql -U root
+\q to exit
+sudo docker logs postgres15
+
+dbdiagram.io
+export as postgresql
+
+migrate create -ext sql -dir db/migration -seq init_schema
+
+docker exec init -it postgres_container_name /bin/sh
+createdb --username=root --owner=root simple_bank
+psql simple_bank
+dropdb simple_bank
+exit
+
+sudo docker start postgres15
+sudo docker stop postgres15
+
+sudo make createdb
+sudo make dropdb
