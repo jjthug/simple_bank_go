@@ -20,3 +20,6 @@ sudo docker stop postgres15
 
 sudo make createdb
 sudo make dropdb
+
+sqlc:
+make sqlc
