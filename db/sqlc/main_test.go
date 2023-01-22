@@ -22,6 +22,5 @@ func TestMain(m *testing.M) {
 	}
 
 	testQueries = New(conn)
-	m.Run()
 	os.Exit(m.Run())
 }
