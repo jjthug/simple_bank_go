@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SIMPLE_BANK.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sqlc/store.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sqlc/store_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/postgres_lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PROJECT_MASTERCLASS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/query/account.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/query/account.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/account.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account.sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +64,7 @@
       <recent name="$PROJECT_DIR$/db/sqlc2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestTransferTx in simple_bank/db/sqlc">
     <configuration name="TestTransferTx in simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
       <working_directory value="$PROJECT_DIR$/db/sqlc" />
@@ -88,9 +77,21 @@
       <pattern value="^\QTestTransferTx\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="go test simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SIMPLE_BANK" />
+      <working_directory value="$PROJECT_DIR$/db/sqlc" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="simple_bank/db/sqlc" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestTransferTx in simple_bank/db/sqlc" />
+        <item itemvalue="Go Test.go test simple_bank/db/sqlc" />
       </list>
     </recent_temporary>
   </component>
