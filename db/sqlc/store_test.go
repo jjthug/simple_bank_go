@@ -14,7 +14,7 @@ func TestTransferTx(t *testing.T) {
 	fmt.Println("final account balance: ", account1.Balance, account2.Balance)
 
 	// run n concurrent transfer transactions
-	n := 50
+	n := 49
 	amount := int64(10)
 
 	errs := make(chan error)
@@ -96,7 +96,7 @@ func TestTransferTx(t *testing.T) {
 	require.NoError(t, err)
 	fmt.Println("final account balance: ", updatedAccount1.Balance, updatedAccount2.Balance)
 
-	require.Equal(t, account1.Balance, updatedAccount1.Balance)
-	require.Equal(t, account2.Balance, updatedAccount2.Balance)
+	require.Equal(t, account1.Balance+amount, updatedAccount1.Balance)
+	require.Equal(t, account2.Balance-amount, updatedAccount2.Balance)
 
 }
