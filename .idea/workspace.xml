@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/account.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/account_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mock/store.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/sqlc/querier.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/account.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account.sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/entry.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/entry.sql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/main_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands" beforeDir="false" afterPath="$PROJECT_DIR$/docs/commands" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqlc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sqlc.yaml" afterDir="false" />
@@ -67,15 +65,30 @@
     "last_opened_file_path": "/home/haker/CODE/telegramPush",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/db/sqlc2" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test simple_bank/db/sqlc">
+  <component name="RunManager" selected="Go Test.go test simple_bank/api">
+    <configuration name="TestGetAccountAPI in simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SIMPLE_BANK" />
+      <working_directory value="$PROJECT_DIR$/api" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="simple_bank/api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetAccountAPI\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestTransferTx in simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
       <working_directory value="$PROJECT_DIR$/db/sqlc" />
@@ -86,6 +99,17 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestTransferTx\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="SIMPLE_BANK" />
+      <working_directory value="$PROJECT_DIR$/api" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="simple_bank/api" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="go test simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -101,6 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test simple_bank/api" />
+        <item itemvalue="Go Test.TestGetAccountAPI in simple_bank/api" />
         <item itemvalue="Go Test.go test simple_bank/db/sqlc" />
         <item itemvalue="Go Test.TestTransferTx in simple_bank/db/sqlc" />
       </list>
@@ -115,5 +141,8 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SIMPLE_BANK$go_test_simple_bank_api.out" NAME="go test simple_bank/api Coverage Results" MODIFIED="1674925857765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

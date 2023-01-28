@@ -23,3 +23,11 @@ sudo make dropdb
 
 sqlc:
 make sqlc
+
+gin
+viper
+================================================
+gomock, edit ~/.bashrc or zshrc or bash_profile
+ go get github.com/golang/mock/
+ mockgen -package mockdb -destination db/mock/store.go simple_bank/db/sqlc Store
+================================================
