@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/account.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/account.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/entry.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/entry.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/transfer.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/sqlc.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +64,10 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/haker",
+    "last_opened_file_path": "/home/haker/CODE/telegramPush",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,14 +76,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Go Test.go test simple_bank/db/sqlc">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestTransferTx in simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
       <working_directory value="$PROJECT_DIR$/db/sqlc" />
@@ -81,15 +86,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestTransferTx\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="go test simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
