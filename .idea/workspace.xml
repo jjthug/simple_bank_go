@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/transfer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sqlc/tx_transfer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/validator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/currency.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/account.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sqlc/store_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/store_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/transfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/transfer.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
