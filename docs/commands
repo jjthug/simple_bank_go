@@ -8,6 +8,7 @@ dbdiagram.io
 export as postgresql
 
 migrate create -ext sql -dir db/migration -seq init_schema
+migrate create -ext sql -dir db/migration -seq add_users
 
 docker exec init -it postgres_container_name /bin/sh
 createdb --username=root --owner=root simple_bank

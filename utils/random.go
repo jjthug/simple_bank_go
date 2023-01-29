@@ -40,3 +40,9 @@ func RandomCurrency() string {
 	n := len(currencies)
 	return currencies[rand.Intn(n)]
 }
+
+func RandomEmail() string {
+	domains := []string{"gmail.com", "yahoo.com", "hotmail.com"}
+	n := len(domains)
+	return RandomString(8) + domains[rand.Intn(n)]
+}
