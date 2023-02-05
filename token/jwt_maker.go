@@ -50,7 +50,7 @@ func (maker *JWTMaker) VerifyToken(token string) (*Payload, error) {
 		return nil, ErrInvalidToken
 	}
 	payload, ok := jwtToken.Claims.(*Payload)
-	if ok {
+	if !ok {
 		return nil, ErrInvalidToken
 	}
 	return payload, nil

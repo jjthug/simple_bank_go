@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/middleware_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/account.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/account_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/account_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/main_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.env" beforeDir="false" afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/transfer.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/transfer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/query/account.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/query/account.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/account.sql.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account.sql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/sqlc/account_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/sqlc/account_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/token/jwt_maker.go" beforeDir="false" afterPath="$PROJECT_DIR$/token/jwt_maker.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,41 +78,41 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test simple_bank/api">
-    <configuration name="TestExpiredJWTToken in simple_bank/token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestGetAccountAPI in simple_bank/api">
+    <configuration name="TestAuthMiddleware in simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$/token" />
+      <working_directory value="$PROJECT_DIR$/api" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="simple_bank/token" />
+      <package value="simple_bank/api" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestExpiredJWTToken\E$" />
+      <pattern value="^\QTestAuthMiddleware\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInvalidJWTTokenAlgNone in simple_bank/token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGetAccountAPI in simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$/token" />
+      <working_directory value="$PROJECT_DIR$/api" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="simple_bank/token" />
+      <package value="simple_bank/api" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestInvalidJWTTokenAlgNone\E$" />
+      <pattern value="^\QTestGetAccountAPI\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestJWTMaker in simple_bank/token" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestListAccounts in simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$/token" />
+      <working_directory value="$PROJECT_DIR$/db/sqlc" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="simple_bank/token" />
+      <package value="simple_bank/db/sqlc" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestJWTMaker\E$" />
+      <pattern value="^\QTestListAccounts\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGetAccountAPI in simple_bank/api" />
+        <item itemvalue="Go Test.TestListAccounts in simple_bank/db/sqlc" />
+        <item itemvalue="Go Test.TestAuthMiddleware in simple_bank/api" />
         <item itemvalue="Go Test.go test simple_bank/api" />
         <item itemvalue="Go Test.go test simple_bank/token" />
-        <item itemvalue="Go Test.TestInvalidJWTTokenAlgNone in simple_bank/token" />
-        <item itemvalue="Go Test.TestJWTMaker in simple_bank/token" />
-        <item itemvalue="Go Test.TestExpiredJWTToken in simple_bank/token" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +156,17 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/api/account_test.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SIMPLE_BANK$go_test_simple_bank_api.out" NAME="go test simple_bank/api Coverage Results" MODIFIED="1674925857765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

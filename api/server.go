@@ -44,12 +44,14 @@ func (server *Server) setupRouter() {
 	router := gin.Default()
 
 	// add routes to router
-	router.POST("/accounts", server.createAccount)
-	router.GET("/accounts/:id", server.getAccount)
-	router.GET("/accounts", server.listAccounts)
-	router.POST("/transfers", server.createTransfer)
-	router.POST("/users", server.createUserr)
 	router.POST("/users/login", server.loginUser)
+	router.POST("/users", server.createUserr)
+
+	authRoutes := router.Group("/").Use(authMiddleware(server.tokenMaker))
+	authRoutes.GET("/accounts/:id", server.getAccount)
+	authRoutes.POST("/accounts", server.createAccount)
+	authRoutes.GET("/accounts", server.listAccounts)
+	authRoutes.POST("/transfers", server.createTransfer)
 
 	server.router = router
 	server.router.SetTrustedProxies(nil)
