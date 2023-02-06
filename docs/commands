@@ -32,3 +32,25 @@ gomock, edit ~/.bashrc or zshrc or bash_profile
  go get github.com/golang/mock/
  mockgen -package mockdb -destination db/mock/store.go simple_bank/db/sqlc Store
 ================================================
+
+DOCKER
+sudo docker build -t simplebank:latest .
+
+docker --help
+docker images
+docker ps -a
+docker rmi [imageTag]
+docker rm [containerId]
+
+docker run --name simplebank --network bank-network -e GIN_MODE=release -e DB_SOURCE="postgresql://root:secret@postgres15:5432/simple_bank?sslmode=disable"
+-p 8080:8080 simplebank:latest
+
+docker network
+docker network inspect bridge
+
+
+CREATE NETWORK
+sudo docker network create bank-network
+
+sudo docker network inspect bank-network
+sudo docker container inspect postgres15
