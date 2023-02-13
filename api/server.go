@@ -5,6 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/go-playground/validator/v10"
+	"log"
 	db "simple_bank/db/sqlc"
 	"simple_bank/token"
 	"simple_bank/utils"
@@ -54,7 +55,10 @@ func (server *Server) setupRouter() {
 	authRoutes.POST("/transfers", server.createTransfer)
 
 	server.router = router
-	server.router.SetTrustedProxies(nil)
+	err := server.router.SetTrustedProxies(nil)
+	if err != nil {
+		log.Panic("failed to set trusted proxies")
+	}
 
 }
 
