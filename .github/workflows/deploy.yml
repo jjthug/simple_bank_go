@@ -24,10 +24,10 @@ jobs:
       id: login-ecr
       uses: aws-actions/amazon-ecr-login@v1
 
-    - name: Build, tag, and push docker image to Amazon ECR
+    - name: Build, tag, and push image to Amazon ECR
       env:
-        REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        REPOSITORY: simplebank
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        ECR_REPOSITORY: simplebank
         IMAGE_TAG: ${{ github.sha }}
       run: |
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -t $ECR_REGISTRY/$ECR_REPOSITORY:latest .
