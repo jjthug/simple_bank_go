@@ -58,3 +58,18 @@ sudo docker container inspect postgres15
 sudo docker compose up
 sudo docker compose down
 sudo docker rmi simple_bank-api
+
+
+openssl rand -hex 64
+openssl rand -hex 64 | head -c 32
+
+aws configure
+ls -l ~/.aws
+cat ~/.aws/credentials
+cat ~/.aws/config
+
+aws secretsmanager help
+
+aws secretsmanager get-secret-value --secret-id simple_bank_secrets --query SecretString --output text
+
+aws secretsmanager get-secret-value --secret-id simple_bank_secrets --query SecretString --output text | jq -r 'to_entries|map("\(.key)=\(.value)")|.[]'
