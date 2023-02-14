@@ -73,3 +73,7 @@ aws secretsmanager help
 aws secretsmanager get-secret-value --secret-id simple_bank_secrets --query SecretString --output text
 
 aws secretsmanager get-secret-value --secret-id simple_bank_secrets --query SecretString --output text | jq -r 'to_entries|map("\(.key)=\(.value)")|.[]'
+
+aws ecr get-login-password
+
+aws ecr get-login-password --region ap-south-1 | sudo docker login --username AWS --password-stdin 497194874456.dkr.ecr.ap-south-1.amazonaws.com
