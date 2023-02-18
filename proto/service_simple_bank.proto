@@ -1,0 +1,12 @@
+syntax = "proto3";
+import "rpcCreateUser.proto";
+import "rpcLoginUser.proto";
+
+package pb;
+
+option go_package = "simple_bank/pb";
+
+service simple_bank{
+  rpc CreateUser(CreateUserRequest) returns(CreateUserResponse){}
+  rpc LoginUser(LoginUserRequest) returns(LoginUserResponse){}
+}
