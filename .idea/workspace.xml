@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gapi/converter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gapi/rpc_create_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gapi/rpc_login_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gapi/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pb/service_simple_bank.pb.gw.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/google/api/annotations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/google/api/field_behavior.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/google/api/http.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/google/api/httpbody.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gapi/metadata.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.env" beforeDir="false" afterPath="$PROJECT_DIR$/app.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migration/000003_add_sessions.up.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/migration/000003_add_sessions.up.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pb/service_simple_bank.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/pb/service_simple_bank.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/service_simple_bank.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/service_simple_bank.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gapi/rpc_login_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/gapi/rpc_login_user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
