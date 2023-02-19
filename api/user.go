@@ -134,8 +134,8 @@ func (server *Server) loginUser(ctx *gin.Context) {
 		ID:           refreshPayload.ID,
 		Username:     refreshPayload.Username,
 		RefreshToken: refreshToken,
-		UserAgent:    "", // TODO
-		ClientIp:     "", // TODO
+		UserAgent:    ctx.Request.UserAgent(),
+		ClientIp:     ctx.RemoteIP(),
 		IsBlocked:    false,
 		ExpiresAt:    refreshPayload.ExpiredAt,
 	})
