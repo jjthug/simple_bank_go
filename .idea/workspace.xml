@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/swagger/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/simple_bank.swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-initializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-es-bundle-core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-es-bundle-core.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-es-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-es-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-standalone-preset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui-standalone-preset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/swagger/swagger-ui.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/protoc-gen-openapiv2/options/annotations.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto/protoc-gen-openapiv2/options/openapiv2.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pb/service_simple_bank.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/pb/service_simple_bank.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proto/service_simple_bank.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/service_simple_bank.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
