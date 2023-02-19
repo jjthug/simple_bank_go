@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gapi/metadata.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gapi/rpc_login_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/gapi/rpc_login_user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/proto/user.proto" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,7 +54,6 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
@@ -66,22 +69,12 @@
       <recent name="$PROJECT_DIR$/db/sqlc2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/proto" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestGetAccountAPI in simple_bank/api">
-    <configuration name="TestAuthMiddleware in simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$/api" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="simple_bank/api" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestAuthMiddleware\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test simple_bank/api">
     <configuration name="TestGetAccountAPI in simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="SIMPLE_BANK" />
       <working_directory value="$PROJECT_DIR$/api" />
@@ -128,13 +121,19 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="proto" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="proto" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestGetAccountAPI in simple_bank/api" />
-        <item itemvalue="Go Test.TestListAccounts in simple_bank/db/sqlc" />
-        <item itemvalue="Go Test.TestAuthMiddleware in simple_bank/api" />
         <item itemvalue="Go Test.go test simple_bank/api" />
         <item itemvalue="Go Test.go test simple_bank/token" />
+        <item itemvalue="Makefile Target.proto" />
+        <item itemvalue="Go Test.TestListAccounts in simple_bank/db/sqlc" />
+        <item itemvalue="Go Test.TestGetAccountAPI in simple_bank/api" />
       </list>
     </recent_temporary>
   </component>
