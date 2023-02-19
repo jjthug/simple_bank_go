@@ -1,3 +1,6 @@
+//go:build tool
+// +build tool
+
 package tools
 
 import (
