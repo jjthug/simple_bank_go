@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Simple Bank API",
-    "version": "1.0",
+    "version": "1.1",
     "contact": {
       "name": "JJTHUG",
       "url": "https://github.com/jjthug",
@@ -55,6 +55,8 @@
     },
     "/v1/login_user": {
       "post": {
+        "summary": "Login User",
+        "description": "Use this API to login user and get access token \u0026 refresh token",
         "operationId": "simple_bank_LoginUser",
         "responses": {
           "200": {

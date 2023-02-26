@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b5d44e8-53af-431f-9196-4fd66aebeb43" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/statik/statik.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/swagger/simple_bank.swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/swagger/simple_bank.swagger.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pb/service_simple_bank.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/pb/service_simple_bank.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/service_simple_bank.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/service_simple_bank.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/tools.go" beforeDir="false" afterPath="$PROJECT_DIR$/tools/tools.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,17 +81,13 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test simple_bank/api">
-    <configuration name="TestGetAccountAPI in simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Makefile Target.proto">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="SIMPLE_BANK" />
-      <working_directory value="$PROJECT_DIR$/api" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="simple_bank/api" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGetAccountAPI\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestListAccounts in simple_bank/db/sqlc" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -97,6 +100,15 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestListAccounts\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="SIMPLE_BANK" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="go test simple_bank/api" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -121,6 +133,12 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="evans" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="evans" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
     <configuration name="proto" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
       <makefile filename="$PROJECT_DIR$/Makefile" target="proto" workingDirectory="" arguments="">
         <envs />
@@ -129,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.proto" />
+        <item itemvalue="Makefile Target.evans" />
         <item itemvalue="Go Test.go test simple_bank/api" />
         <item itemvalue="Go Test.go test simple_bank/token" />
-        <item itemvalue="Makefile Target.proto" />
         <item itemvalue="Go Test.TestListAccounts in simple_bank/db/sqlc" />
-        <item itemvalue="Go Test.TestGetAccountAPI in simple_bank/api" />
       </list>
     </recent_temporary>
   </component>
